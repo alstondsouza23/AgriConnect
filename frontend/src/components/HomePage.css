@@ -243,7 +243,22 @@
     font-size: 1rem;
   }
 }
+.description-header {
+  margin-top: 8rem;
+  text-align: center;
+  padding: 0 2rem;
+}
 
+.description-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 /* Additional glass effect enhancements */
 @supports (backdrop-filter: blur(20px)) {
   .navbar-content {

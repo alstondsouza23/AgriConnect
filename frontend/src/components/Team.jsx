@@ -33,9 +33,19 @@ const TeamPage = () => {
         <h1 className="main-title">Team</h1>
       </header>
       <div className="team-members">
-        <PixelCard variant="blue">
+        <PixelCard variant="blue" className='livona-card'>
           {/* <img src={livona} alt="Livona" className="team-photo" style={{ position: 'absolute', top: '10px', left: '25%' }} /> */}
           <h2 style={{ position: 'absolute', top: '10px', left: '25%' }}>Livona</h2>
+          <p style={{ position: 'absolute', top: '40px', left: '25%' }}>Frontend</p>
+        </PixelCard>
+        <PixelCard variant="blue" className='alston-card'>
+          {/* <img src={livona} alt="Livona" className="team-photo" style={{ position: 'absolute', top: '10px', left: '25%' }} /> */}
+          <h2 style={{ position: 'absolute', top: '10px', left: '25%' }}>Alston</h2>
+          <p style={{ position: 'absolute', top: '40px', left: '25%' }}>Backend</p>
+        </PixelCard>
+        <PixelCard variant="blue" className='aidon-card'> 
+          {/* <img src={livona} alt="Livona" className="team-photo" style={{ position: 'absolute', top: '10px', left: '25%' }} /> */}
+          <h2 style={{ position: 'absolute', top: '10px', left: '25%' }}>Aidon</h2>
           <p style={{ position: 'absolute', top: '40px', left: '25%' }}>Frontend</p>
         </PixelCard>
       </div>
