@@ -188,12 +188,20 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
-.text-container .typewriter-text {
+.text-container .text-type__content {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 1.7rem !important; 
+  line-height: 1.8 !important;
+  text-align: justify !important;
+  font-weight: 400 !important;
+}
+
+.text-container .text-type {
   color: rgba(255, 255, 255, 0.85);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.8;
   text-align: justify;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* Workflow Section */

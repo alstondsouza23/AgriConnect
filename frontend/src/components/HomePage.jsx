@@ -76,12 +76,9 @@ const HomePage = () => {
 
         {/* Workflow Section */}
         <div className="workflow-section">
-          <h3 className="workflow-title">System Architecture</h3>
+          <h3 className="workflow-title">Workflow Architecture</h3>
           <div className="workflow-container">
             <img src={workflowImg} alt="Workflow Diagram" className="workflow-image" />
-            <p className="workflow-caption">
-              Complete data flow from user input through machine learning processing to yield prediction
-            </p>
           </div>
         </div>
       </section>

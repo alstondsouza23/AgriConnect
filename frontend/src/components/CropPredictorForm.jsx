@@ -92,7 +92,7 @@ const CropPredictorForm = () => {
         <button className="back-btn" onClick={() => navigate('/')}>
           ← Back to Home
         </button>
-        <h1>🌾 AgriYieldPredictor</h1>
+        <h1> Agri Yield Predictor</h1>
       </div>
 
       <div className="form-card">
