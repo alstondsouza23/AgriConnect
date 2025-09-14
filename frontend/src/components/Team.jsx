@@ -1,8 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Team.css';
-import logo from '../assets/AgriConnect_logo.png'; // <-- added
+import logo from '../assets/AgriConnect_logo.png';
 import livona from '../assets/livona.png';
+import alston from '../assets/alston.png';
+import aidon from '../assets/aidon.png';
 import PixelCard from './UI/PixelCard';
 
 
@@ -34,19 +36,19 @@ const TeamPage = () => {
       </header>
       <div className="team-members">
         <PixelCard variant="blue" className='livona-card'>
-          {/* <img src={livona} alt="Livona" className="team-photo" style={{ position: 'absolute', top: '10px', left: '25%' }} /> */}
-          <h2 style={{ position: 'absolute', top: '10px', left: '25%' }}>Livona</h2>
-          <p style={{ position: 'absolute', top: '40px', left: '25%' }}>Frontend</p>
+          <img src={livona} alt="Livona" className="team-photo" style={{ position: 'absolute', top: '-13%', left: '-5%' }} />
+          <h2 style={{ position: 'absolute', top: '80%', left: '38%' }}>Livona</h2>
+          <p style={{ position: 'absolute', top: '87%', left: '39%' }}>Frontend</p>
         </PixelCard>
         <PixelCard variant="blue" className='alston-card'>
-          {/* <img src={livona} alt="Livona" className="team-photo" style={{ position: 'absolute', top: '10px', left: '25%' }} /> */}
-          <h2 style={{ position: 'absolute', top: '10px', left: '25%' }}>Alston</h2>
-          <p style={{ position: 'absolute', top: '40px', left: '25%' }}>Backend</p>
+          <img src={alston} alt="Alston" className="team-photo" style={{ position: 'absolute', top: '-13%', left: '-5%' }} />
+          <h2 style={{  position: 'absolute', top: '80%', left: '38%' }}>Alston</h2>
+          <p style={{ position: 'absolute', top: '87%', left: '39%' }}>Backend</p>
         </PixelCard>
         <PixelCard variant="blue" className='aidon-card'> 
-          {/* <img src={livona} alt="Livona" className="team-photo" style={{ position: 'absolute', top: '10px', left: '25%' }} /> */}
-          <h2 style={{ position: 'absolute', top: '10px', left: '25%' }}>Aidon</h2>
-          <p style={{ position: 'absolute', top: '40px', left: '25%' }}>Frontend</p>
+          <img src={aidon} alt="Aidon" className="team-photo" style={{ position: 'absolute', top: '-13%', left: '-5%' }} />
+          <h2 style={{  position: 'absolute', top: '80%', left: '38%' }}>Aidon</h2>
+          <p style={{ position: 'absolute', top: '87%', left: '38%' }}>Frontend</p>
         </PixelCard>
       </div>
       </div>
